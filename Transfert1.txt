@@ -1,0 +1,7 @@
+ici: in r1
+     jzs fin
+     in r2
+     ldw r1, (r2)#0
+     out r1
+     jmp ici
+fin: hlt

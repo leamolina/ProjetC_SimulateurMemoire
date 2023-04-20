@@ -1,0 +1,13 @@
+ici: in r1
+     jzs fin
+     in r2
+     in r3
+     add r2, r2, r3
+     out r2
+     jnc et3
+et1: in r4
+     jns et1
+et3: in r8
+     jzc et4
+et4: jmp ici
+fin: hlt

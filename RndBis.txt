@@ -1,0 +1,6 @@
+ici: in r1
+     jzs fin
+     rnd r4, r1, #hA
+     out r4
+     jmp ici
+fin: hlt

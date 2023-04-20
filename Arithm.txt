@@ -1,0 +1,20 @@
+ici: in r1
+     jzs fin
+     in r2
+     in r3
+     in r4
+     add r1, r2, r3
+     out r1
+     sub r2, r4, #-10
+     out r2
+     mul r2, r4, #0
+     out r2
+     mul r2, r2, r2
+     out r2
+     div r1, r3, #3
+     out r1
+     in r5
+     shr r5, r5, #-2
+     out r5
+     jmp ici
+fin: hlt
